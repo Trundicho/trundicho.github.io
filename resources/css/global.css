@@ -260,7 +260,7 @@ nav ul li.selected a {
     margin-top: 0px;
     padding-top: 10px;
     height:40px;
-    width: 465px; 
+    width: 100%;
     text-align: center;
     z-index:100;
     background-color: #191919;
@@ -271,7 +271,7 @@ nav ul li.selected a {
     position:absolute; 
     height:27px;
     bottom:0px;
-    width: 465px; 
+    width: 100%;
     text-align: center;
     z-index:100;
     background-color: #191919;

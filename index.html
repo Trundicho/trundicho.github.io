@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <title>Trundicho</title>
-    <!-- meta tags -->
     <meta name="keywords" content="live band, creative commons, creative, commons, music, mp3,
               live, music, musik, singer, songwriter, gitarre, trundicho"/>
     <meta name="description" content="Die Website des Singer-Songwriters: Trundicho"/>
-    <!-- stylesheets -->
     <link rel="stylesheet" href="./resources/css/global.css" type="text/css"/>
     <link rel="icon" type="image/png" href="./resources/img/global/favicon.png"/>
-    <!-- javascript -->
 </head>
 <body>
-<header class="head">
+<header class="head" usemap="#trundichoMap"
+        onclick="location.href='./index.html'">
     <br/>
     <br/>
     <br/>
@@ -27,16 +24,11 @@
         <div style="width: 205px;margin-left: 15px;color: black;font-size: 20px;">
             Every year we release a new song!
         </div>
-        <div
-                style="position:absolute;left:0;top:0;z-index:9999;
-            background-color:transparent;width:205px;height:200px;" usemap="#trundichoMap"
-                onclick="location.href='./'">&nbsp;
-        </div>
-        <map name="trundichoMap">
-            <area shape="rect" coords="0,0,350,200"
-                  href="./" alt="trundicho.de" title="trundicho.de"/>
-        </map>
     </div>
+    <map name="trundichoMap">
+        <area shape="rect" coords="0,0,350,200"
+              href="./index.html" alt="trundicho.de" title="trundicho.de"/>
+    </map>
 </header>
 <div class="maincontent">
     <div class="border" style="width: 98%;max-height: 542px;height: 542px;background-color: black;">
@@ -58,7 +50,8 @@
     <div class="crosslinks" id="crosslinks">
         <div class="border" style="float:right;height: 25px; width: 230px;margin-bottom: 28px;">
             <div class="viewContent">
-                <a href="index.php?page=datenschutz">Privacy policy</a> - <a href="index.php?page=impressum">Imprint</a>
+                <a href="index.html">Home</a> - <a href="index.php?page=datenschutz">Privacy policy</a> - <a
+                    href="impressum.html">Impressum</a>
             </div>
         </div>
     </div>
