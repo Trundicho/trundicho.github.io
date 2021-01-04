@@ -89,7 +89,6 @@ body {
     background-position: 12px -20px;
     background-image:url('../img/Trundicho_Wangerooge_970.jpg');
     background-repeat:no-repeat;
-    cursor: pointer;
 }
 
 .maincontent {
@@ -124,7 +123,7 @@ table, td, th {
 
 .nav_rotate {
     margin-top: 110px;
-    margin-left: 729px;
+    margin-left: 709px;
     width: 225;
     text-align: right;
     -moz-transform: rotate(-6.2deg);  /* FF3.5+ */
