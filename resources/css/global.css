@@ -89,6 +89,7 @@ body {
     background-position: 12px -20px;
     background-image:url('../img/Trundicho_Wangerooge_970.jpg');
     background-repeat:no-repeat;
+    cursor: pointer;
 }
 
 .maincontent {
